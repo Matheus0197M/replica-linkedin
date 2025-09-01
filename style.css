@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #221141;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1rem solid black;
+    padding: 1rem;
+    background: #ddd;
+}
+
+.logoSite {
+    padding: 0.2rem;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.logoPesquisa,
+.menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.classificarPopulares {
+    display: flex;
+}
+
+.home,
+.minhaRede,
+.vagas,
+.mensagens,
+.notificacoes,
+.eu,
+.paraNegocios,
+.anunciarVaga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu2{
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid black;
+    padding-left: 1rem;
+}
+
+.ComeceUmaPublicacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 20px;
+    background: #fff;
+    margin: 2rem;
+}
+
+.iconsCUP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ClassPop{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
